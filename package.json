@@ -3,6 +3,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "start": "npm run dev -- -o",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },
