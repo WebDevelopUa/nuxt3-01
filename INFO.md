@@ -1,7 +1,8 @@
-Nuxt 3 project - v.01
+Nuxt 3 project - Client JS App v.01
 ---
 
-[GitHub]()
+[Local](http://localhost:3000/)
+[GitHub](https://github.com/WebDevelopUa/nuxt3-01)
 
 -----------------
 
@@ -16,7 +17,11 @@ Nuxt 3 project - v.01
 
 ```shell
 npx nuxi init .
-npx nuxi init nuxt-app
+npx nuxi init nuxt-client-app
+
+npm i
+npm audit fix 
+npm run dev
 ```
 
 -----------------
@@ -25,6 +30,7 @@ npx nuxi init nuxt-app
 
 ## Links
 
-1. [https://v3.nuxtjs.org](https://v3.nuxtjs.org)
+1. [v3.nuxtjs.org](https://v3.nuxtjs.org)
+2. [typescript](https://v3.nuxtjs.org/guide/concepts/typescript/)
 
 -----------------
