@@ -32,9 +32,7 @@ npm run dev -- -o
 ```
 
 -----------------
------------------
------------------
-
+ 
 ## Links
 
 1. [v3.nuxtjs.org](https://v3.nuxtjs.org)
@@ -45,5 +43,7 @@ npm run dev -- -o
 6. [image](https://www.freepik.com/free-psd/3d-rendering-slippers-travel-icon_25778689.htm)
 7. [Assets directory](https://nuxtjs.org/docs/directory-structure/assets/)
 8. [Setting the image using inline styles](https://reactgo.com/nuxt-set-background-image/)
+9. [CSS Flex Container](https://www.w3schools.com/css/css3_flexbox_container.asp)
+10. [Pages directory](https://v3.nuxtjs.org/guide/directory-structure/pages/)
 
 -----------------

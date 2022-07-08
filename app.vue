@@ -1,4 +1,9 @@
 <template>
+  <hr/>
+  <!-- Markup shared across all pages, ex: NavBar -->
+  <NuxtPage/>
+  <hr/>
+
   <div class="layout">
 
     <Card title="Card #1"
