@@ -45,5 +45,7 @@ npm run dev -- -o
 8. [Setting the image using inline styles](https://reactgo.com/nuxt-set-background-image/)
 9. [CSS Flex Container](https://www.w3schools.com/css/css3_flexbox_container.asp)
 10. [Pages directory](https://v3.nuxtjs.org/guide/directory-structure/pages/)
+11. [Layouts directory](https://v3.nuxtjs.org/guide/directory-structure/layouts/)
+12. [Active Link Classes](https://nuxtjs.org/examples/routing/active-link-classes/)
 
 -----------------

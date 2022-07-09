@@ -1,4 +1,7 @@
 <template>
+  <!-- Default Layout-->
+  <NuxtLayout name="default"/>
+
   <hr/>
   <!-- Markup shared across all pages, ex: NavBar -->
   <NuxtPage/>
