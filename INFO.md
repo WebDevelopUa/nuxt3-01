@@ -74,6 +74,14 @@ export default {
 10. [Pages directory](https://v3.nuxtjs.org/guide/directory-structure/pages/)
 11. [Layouts directory](https://v3.nuxtjs.org/guide/directory-structure/layouts/)
 12. [Active Link Classes](https://nuxtjs.org/examples/routing/active-link-classes/)
-13. [nuxy/axios](https://axios.nuxtjs.org)
+13. [nuxt/axios](https://axios.nuxtjs.org)
+14. [Dynamic Routing in Nuxt](https://dev.to/davidemaye/dynamic-routing-in-nuxt-5g9)
+15. [Dynamic Pages in Nuxt 3](https://masteringnuxt.com/blog/dynamic-pages-in-nuxt-3)
+16. [Pages directory](https://v3.nuxtjs.org/guide/directory-structure/pages/)
+17. [Nuxt.js Data Fetching Hook: Async Data](https://dev.to/aiarnob/nuxt-js-data-fetching-hook-async-data-o9p)
+18. [Data Fetching](https://v3.nuxtjs.org/guide/features/data-fetching)
+19. [useAsyncData](https://v3.nuxtjs.org/api/composables/use-async-data/)
+20. [asyncData](https://axios.nuxtjs.org/usage/)
+21. [Async Data](https://nuxtjs.org/docs/features/data-fetching/#async-data-in-components)
 
 -----------------

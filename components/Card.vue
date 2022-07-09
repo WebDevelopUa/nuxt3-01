@@ -3,7 +3,7 @@
   <div class="card">
 
     <div class="card-image"
-         :style="{ backgroundImage: `url(assets/${imageName}.jpg)`}"
+         :style="{ backgroundImage: `url(/assets/${imageName}.jpg)`}"
     />
 
     <h1>{{ title }}</h1>

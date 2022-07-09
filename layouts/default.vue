@@ -9,7 +9,7 @@
 
 <script>
 import Navbar from "./navbar";
-import Footer from "./footer";
+import Footer from "./copyright";
 import Cards from "../components/Cards";
 
 export default {

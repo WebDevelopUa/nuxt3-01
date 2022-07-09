@@ -2,11 +2,17 @@
   <nav class="navbar">
     <ul>
       <nuxt-link to="/">
-        <li :class="active">Home</li>
+        <li>Home</li>
       </nuxt-link>
+
+<!--      <nuxt-link to="/posts">-->
+<!--        <li>Posts</li>-->
+<!--      </nuxt-link>-->
+
       <nuxt-link to="/about">
         <li>About</li>
       </nuxt-link>
+
       <nuxt-link to="/contacts">
         <li>Contacts</li>
       </nuxt-link>

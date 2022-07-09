@@ -1,12 +1,12 @@
 <template>
-  <footer class="footer">
+  <div class="footer">
     <p>&copy; Nuxt 3</p>
-  </footer>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "footer"
+  name: "copyright"
 }
 </script>
 
