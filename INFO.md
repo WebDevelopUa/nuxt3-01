@@ -31,8 +31,35 @@ npm run dev
 npm run dev -- -o
 ```
 
------------------
+## Nuxt axios install
+
+```shell
+npm install @nuxtjs/axios
+```
+
+```shell
+#nuxt.config.js
  
+export default {
+  modules: ['@nuxtjs/axios']
+}
+```
+
+```shell
+#tsconfig.json
+ 
+{
+  "compilerOptions": {
+    "types": [
+      "@nuxt/types",
+      "@nuxtjs/axios"
+    ]
+  }
+}
+```
+
+-----------------
+
 ## Links
 
 1. [v3.nuxtjs.org](https://v3.nuxtjs.org)
@@ -47,5 +74,6 @@ npm run dev -- -o
 10. [Pages directory](https://v3.nuxtjs.org/guide/directory-structure/pages/)
 11. [Layouts directory](https://v3.nuxtjs.org/guide/directory-structure/layouts/)
 12. [Active Link Classes](https://nuxtjs.org/examples/routing/active-link-classes/)
+13. [nuxy/axios](https://axios.nuxtjs.org)
 
 -----------------

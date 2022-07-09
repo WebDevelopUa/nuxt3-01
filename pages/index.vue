@@ -5,13 +5,41 @@
       going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
       necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
       The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+
+
+    <h2>Posts</h2>
+    <p>from:
+      <nuxt-link to="https://jsonplaceholder.typicode.com/posts"
+                 target="_blank"
+                 rel="nofollow noreferrer noopener"
+      >
+        jsonplaceholder.typicode.com/posts
+      </nuxt-link>
+
+    </p>
+
+    <ul class="list">
+      <Post
+          v-for="post in Data"
+          :key="post.id"
+          :id="post.id"
+          :title="post.title"
+          :body="post.body"
+      />
+    </ul>
+
   </div>
+
 
 </template>
 
 <script>
 
+import axios from "axios";
+import Post from "../components/Post";
+
 export default {
+  components: {Post},
   head() {
     return {
       title: "Home Page",
@@ -29,6 +57,25 @@ export default {
     }
   },
 
+  data() {
+    return {
+      Data: []
+    }
+  },
+
+  mounted() {
+    axios.get('https://jsonplaceholder.typicode.com/posts')
+        .then(
+            r => {
+              console.log(r.data);
+              this.Data = r.data;
+            }
+        ).catch(
+        error => {
+          console.log(error);
+        }
+    )
+  }
 }
 
 </script>
@@ -42,5 +89,9 @@ export default {
 
 .page-container {
   margin: 20px;
+}
+
+.list {
+  list-style-type: none;
 }
 </style>
