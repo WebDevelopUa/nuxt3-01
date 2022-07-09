@@ -5,12 +5,8 @@
         <li>Home</li>
       </nuxt-link>
 
-<!--      <nuxt-link to="/posts">-->
-<!--        <li>Posts</li>-->
-<!--      </nuxt-link>-->
-
-      <nuxt-link to="/about">
-        <li>About</li>
+      <nuxt-link to="/bootstrap">
+        <li>Bootstrap</li>
       </nuxt-link>
 
       <nuxt-link to="/contacts">

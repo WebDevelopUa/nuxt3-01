@@ -25,11 +25,15 @@ npm audit fix
 npm run dev
 ```
 
+-----------------
+
 ## Start Nuxt app in development mode:
 
 ```shell
 npm run dev -- -o
 ```
+
+---------------------
 
 ## Nuxt axios install
 
@@ -58,6 +62,29 @@ export default {
 }
 ```
 
+----------------
+
+## BootstrapVue3 install
+
+```shell
+npm i --save bootstrap bootstrap-vue-3
+```
+
+All plugins in your `plugins/` directory are auto-registered, so you should not add them to your nuxt.config separately.
+
+```js
+// nuxt.config.js
+
+module.exports = {
+    modules: ['bootstrap-vue/nuxt'],
+    bootstrapVue: {
+        config: {
+            // Custom config options here
+        }
+    }
+}
+```
+
 -----------------
 
 ## Links
@@ -83,5 +110,10 @@ export default {
 19. [useAsyncData](https://v3.nuxtjs.org/api/composables/use-async-data/)
 20. [asyncData](https://axios.nuxtjs.org/usage/)
 21. [Async Data](https://nuxtjs.org/docs/features/data-fetching/#async-data-in-components)
+22. [BootstrapVue](https://bootstrap-vue.org)
+23. [bootstrap-vue](https://www.npmjs.com/package/bootstrap-vue)
+24. [bootstrap-vue-3](https://www.npmjs.com/package/bootstrap-vue-3)
+25. [Plugins directory](https://v3.nuxtjs.org/guide/directory-structure/plugins/)
+26. ['bootstrap-vue/nuxt'](https://bootstrap-vue.org/docs#nuxtjs-module)
 
 -----------------
