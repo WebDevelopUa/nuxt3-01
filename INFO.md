@@ -66,6 +66,15 @@ export default {
 
 ## BootstrapVue3 install
 
+BootstrapVue, based on the world's most popular framework - Bootstrap v4, for building responsive, mobile-first sites using Vue.js.
+[Docs](https://bootstrap-vue.org/docs)
+
+* Vue.js v2.6 is required, v2.6.12 is recommended
+* Bootstrap v4.3.1 is required, v4.6.1 is recommended
+* Popper.js v1.16 is required for dropdowns (and components based on dropdown), tooltips, and popovers. v1.16.1 is recommended
+* PortalVue v2.1 is required by Toasts, v2.1.7 is recommended
+* jQuery is not required
+
 ```shell
 npm i --save bootstrap bootstrap-vue-3
 ```
